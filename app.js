@@ -21,6 +21,19 @@
       $scope.cart = $cookies.getObject('cart');
     }
 
+    // $scope.cartStyle = {
+    //   // "height": "100%",
+    //   // "width": "250px",
+    //   // "background-color": "#111",
+    //   // "overflow-x": "hidden",
+    //   // "transition": "0.5s",
+    //   // "padding-top": "60px"
+    // };
+
+    // $scope.closeNav = function(cartStyle) {
+    //     "width": "0"
+    // };
+
     $scope.addItemToCart = function(product) {
 
       if ($scope.cart.length === 0) {
@@ -85,24 +98,24 @@
 
   var productsData = [{
     id: 1,
-    name: 'product1',
-    price: 100.0,
-    image: ''
+    name: 'Sur Reactive Vase',
+    price: 29.95,
+    image: 'images/img10.jpeg'
   }, {
     id: 2,
     name: 'product2',
     price: 14.5,
-    image: ''
+    image: 'images/img11.jpeg'
   }, {
     id: 3,
     name: 'product3',
-    price: 100.43,
-    image: ''
+    price: 19.95,
+    image: 'images/img12.jpeg'
   }, {
     id: 4,
     name: 'product4',
-    price: 99.9,
-    image: ''
+    price: 39.95,
+    image: 'images/img14.jpeg'
   }];
 
 })();
