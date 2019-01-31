@@ -4,7 +4,7 @@ body {
 
 .viewcart {
   height: 100%;
-  width: 0px;
+/*   width: 0px; */
   position: fixed;
   z-index: 1;
   top: 0;
